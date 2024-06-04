@@ -1,5 +1,5 @@
 {% set name = "gita" %}
-{% set version = "0.16.6.6" %}
+{% set version = "0.16.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gita-{{ version }}.tar.gz
-  sha256: fe8d5f8cc71e5c11f59dae30df49936830f0fb0b51becfe2c02775e044739b37
+  sha256: c489a04d178be52e48860373b0bb628af98d29a58ce1bf6b6c623f741f2fdc25
 
 build:
   entry_points:
